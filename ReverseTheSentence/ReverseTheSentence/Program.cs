@@ -6,23 +6,36 @@ using System.Threading.Tasks;
 
 namespace ReverseTheSentence
 {
+    class Application
+    {
+        static void Main()
+        {
+            const string SumSentence = "Reversal if inevitable. Resistance is futile, human!";
+            string sentence = Words.Sentence(SumSentence);
+            Console.WriteLine(sentence);
+            Console.WriteLine(StringReverse.ReversedString(SumSentence));
+        }
+    }
+
+    static class StringReverse
+    {
+       public static string ReversedString(string s)
+        {
+            char[] arr = s.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
+        }
+    }
     static class Words
     {
         public static string Sentence(string sentence)
         {
             string[] words = sentence.Split();
             Array.Reverse(words);
-            var results = string.Join(" ", words);
-            return(results);
+            var result = string.Join(" ", words);
+            return(result);
         }
+
     }
-    class Application
-    {
-        static void Main()
-        {
-            const string SumSentence = "I want to be reversed!";
-            string sentence = Words.Sentence(SumSentence);
-            Console.WriteLine(sentence);
-        }
-    }
+
 }
