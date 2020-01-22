@@ -8,7 +8,7 @@ namespace ReverseTheSentence
 {
     class Application
     {
-        // calls the methods below it for the desired effect
+        
         static void Main()
         {
             const string SumSentence = "Reversal is inevitable. Resistance is futile, human!";
