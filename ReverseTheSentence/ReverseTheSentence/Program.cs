@@ -10,7 +10,7 @@ namespace ReverseTheSentence
     {
         static void Main()
         {
-            const string SumSentence = "Reversal if inevitable. Resistance is futile, human!";
+            const string SumSentence = "Reversal is inevitable. Resistance is futile, human!";
             string sentence = Words.Sentence(SumSentence);
             Console.WriteLine(sentence);
             Console.WriteLine(StringReverse.ReversedString(SumSentence));
