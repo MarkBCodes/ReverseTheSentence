@@ -12,7 +12,7 @@ namespace ReverseTheSentence
         {
             string[] words = sentence.Split();
             Array.Reverse(words);
-            return string.Join("", words);
+            return string.Join(" ", words);
         }
     }
     class Application
