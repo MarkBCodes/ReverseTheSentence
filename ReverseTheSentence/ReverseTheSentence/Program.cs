@@ -8,26 +8,22 @@ namespace ReverseTheSentence
 {
     class Application
     {
+        // calls the methods below it for the desired effect
         static void Main()
         {
             const string SumSentence = "Reversal is inevitable. Resistance is futile, human!";
-            string sentence = Words.Sentence(SumSentence);
+            string sentence = Sentence(SumSentence);
             Console.WriteLine(sentence);
-            Console.WriteLine(StringReverse.ReversedString(SumSentence));
+            Console.WriteLine(ReversedString(SumSentence));
         }
-    }
-
-    static class StringReverse
-    {
-       public static string ReversedString(string s)
+        
+        public static string ReversedString(string s)
         {
             char[] arr = s.ToCharArray();
             Array.Reverse(arr);
             return new string(arr);
         }
-    }
-    static class Words
-    {
+
         public static string Sentence(string sentence)
         {
             string[] words = sentence.Split();
@@ -35,7 +31,5 @@ namespace ReverseTheSentence
             var result = string.Join(" ", words);
             return(result);
         }
-
     }
-
 }
