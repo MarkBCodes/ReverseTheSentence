@@ -12,7 +12,8 @@ namespace ReverseTheSentence
         {
             string[] words = sentence.Split();
             Array.Reverse(words);
-            return string.Join(" ", words);
+            var results = string.Join(" ", words);
+            return(results);
         }
     }
     class Application
