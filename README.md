@@ -12,4 +12,4 @@ output the reverse order or mirror a string.
 in an array and a then called from this section. See the image
 below for reference.
 
-![alt text] (https://github.com/Gudbrandr42/ReverseTheSentence/blob/master/Images/AppSetup.PNG)
+![alt text](https://github.com/Gudbrandr42/ReverseTheSentence/blob/master/Images/AppSetup.PNG)
