@@ -4,7 +4,7 @@
 some ways one could use a console application to 
 output the reverse order or mirror a string.
 
-It is inspired by a common interview question, one I have had
+> It is inspired by a common interview question, one I have had
 before with colleagues and previous potential employers.
 
 --------------------------------------------------------------
@@ -41,11 +41,11 @@ above examples could be translated from the words of a client/customer.
 The reason behind this, as I come from the QA field and have had 
 responsibilities involving getting such information.  
 
-Obviously, not much would be discussed from a technical perspective to
+> Obviously, not much would be discussed from a technical perspective to
 a client/customer. Typically one might discuss the overall feature and 
 what they want it to look like. They might say that they want something flipped,
 reversed, verticle, etc. and this was exploratory to find out how some of that is done
 programmatically.  
 
-I learned much from this and welcome feedback and any other ideas that might help to expand on this.
+> I learned much from this and welcome feedback and any other ideas that might help to expand on this.
 Thanks for stopping by!
