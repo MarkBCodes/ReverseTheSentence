@@ -13,3 +13,6 @@ in an array and a then called from this section. See the image
 below for reference.
 
 ![alt text](https://github.com/Gudbrandr42/ReverseTheSentence/blob/master/Images/AppSetup.PNG)
+
+> The first method takes the string array and outputs the 
+string as if it was read in a mirror, the characters reversed.
